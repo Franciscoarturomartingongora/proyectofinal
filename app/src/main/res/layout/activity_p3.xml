@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".p3"
+    android:orientation="vertical"
+    android:background="@drawable/pe"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-black"
+            android:text=" Pedido  "
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/descripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:paddingBottom="20dp"
+            android:text="descripcion: "
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/precio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:paddingBottom="20dp"
+            android:text=" Precio: "
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+
+        <EditText
+            android:id="@+id/c1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="cantidad de producto"
+            android:textColorHint="#E4000000" />
+
+        <TextView
+            android:id="@+id/descripcion2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:paddingBottom="20dp"
+            android:text=" descripcion: "
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/precio2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:paddingBottom="1dp"
+            android:text=" Precio: "
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+
+        <EditText
+            android:id="@+id/c2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="cantidad de producto"
+            android:textColorHint="#E4000000" />
+
+        <TextView
+            android:id="@+id/descripcion3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:paddingBottom="20dp"
+            android:text=" descripcion: "
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/precio3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:paddingBottom="1dp"
+            android:text=" Precio: "
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+
+        <EditText
+            android:id="@+id/c3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="cantidad de producto"
+            android:textColorHint="#E4000000" />
+
+        <TextView
+            android:id="@+id/tota"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:paddingBottom="1dp"
+            android:text="Total de productos: "
+            android:layout_alignParentRight="true"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/total"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:paddingBottom="1dp"
+            android:text=" "
+
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+        <Button
+            android:id="@+id/boton6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="calcula la cantidad de productos"
+            android:onClick="calcu"
+            android:textColor="#FFFFFF"
+            tools:ignore="OnClick" />
+
+        <Button
+            android:id="@+id/regresar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="regresar a menu "
+            android:textColor="#FFFFFF" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="martingongorafrancisco1@gmail.com"
+            android:textAlignment="center"
+            android:textSize="19dp"/>
+    </LinearLayout>
+</RelativeLayout>

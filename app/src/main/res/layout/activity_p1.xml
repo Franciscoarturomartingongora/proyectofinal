@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".p1"
+    android:background="@drawable/re"
+    >
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="10dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="250dp"
+            android:src="@drawable/tacoini"
+
+            />
+       
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Nombre de usuario"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+        <EditText
+            android:id="@+id/nombreusuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre de usuario "
+            android:inputType="textPersonName"
+            android:textSize="15dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Correo"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+        <EditText
+            android:id="@+id/correo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="correo "
+            android:inputType="textEmailAddress"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Password"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+        <EditText
+            android:id="@+id/passwoord"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="password "
+            android:inputType="textPassword"
+            android:textSize="15dp" />
+
+
+
+        <Button
+            android:id="@+id/boton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="registrar"
+            android:textColor="#FFFFFF" />
+        <Button
+            android:id="@+id/inicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="iniciar"
+            android:textColor="#FFFFFF" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="martingongorafrancisco1@gmail.com"
+            android:textAlignment="center"
+            android:textSize="19dp"
+
+            />
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

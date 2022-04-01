@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu"
+    tools:context=".p2">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-black"
+            android:paddingBottom="30dp"
+            android:text=" Menú  "
+            android:layout_marginTop="98dp"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+
+        <ListView
+            android:id="@+id/l1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/boton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="230dp"
+            android:text="ver historial"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/boton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ver imagenes"
+            android:textColor="#FFFFFF"
+            tools:ignore="OnClick" />
+
+        <Button
+            android:id="@+id/salir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="salir"
+            android:text="salir de la app"
+            android:textColor="#FFFFFF"
+            tools:ignore="OnClick" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:layout_marginTop="129dp"
+            android:text="martingongorafrancisco1@gmail.com"
+            android:textAlignment="center"
+            android:textSize="19dp"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

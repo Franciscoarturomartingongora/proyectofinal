@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">proyectofin</string>
+    <string name="nombre">Nombre</string>
+    <string name="descripcion">Descripcion</string>
+    <string name="cobrar">Cobrar</string>
+    <string name="ver">Ver</string>
+</resources>

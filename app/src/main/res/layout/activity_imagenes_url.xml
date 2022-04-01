@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".imagenesUrl"
+    android:background="@drawable/im"
+    >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="80dp"
+                android:fontFamily="sans-serif-black"
+                android:text=" Categorias de los productos  "
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:id="@+id/categoria1"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp" />
+
+            <ImageView
+                android:id="@+id/categoria2"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp" />
+
+            <ImageView
+                android:id="@+id/categoria3"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:paddingBottom="30dp"
+                android:text="Producto tortas  "
+                android:textColor="@color/black"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:id="@+id/t1"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp" />
+
+            <ImageView
+                android:id="@+id/t2"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp" />
+
+            <ImageView
+                android:id="@+id/t3"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:paddingBottom="30dp"
+                android:text="Producto tacos "
+                android:textColor="@color/black"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:id="@+id/ta1"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp" />
+
+            <ImageView
+                android:id="@+id/ta2"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp" />
+
+            <ImageView
+                android:id="@+id/ta3"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:paddingBottom="30dp"
+                android:text="Producto refresco "
+                android:textColor="@color/black"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:id="@+id/r1"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp" />
+
+            <ImageView
+                android:id="@+id/r2"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp" />
+
+            <ImageView
+                android:id="@+id/r3"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp" />
+
+            <Button
+                android:id="@+id/regresar1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="regresar a menu "
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:text="martingongorafrancisco1@gmail.com"
+                android:textAlignment="center"
+                android:textSize="19dp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
